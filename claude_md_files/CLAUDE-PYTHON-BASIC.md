@@ -407,13 +407,12 @@ class Product(ProductBase):
 
 ### Branch Strategy
 
-- `main` - Production-ready code
-- `develop` - Integration branch for features
-- `feature/*` - New features
-- `fix/*` - Bug fixes
-- `docs/*` - Documentation updates
-- `refactor/*` - Code refactoring
-- `test/*` - Test additions or fixes
+- `main` - Production-ready code (always deployable)
+- `feature/*` - New features (from main)
+- `fix/*` - Bug fixes (from main)
+- `docs/*` - Documentation updates (from main)
+- `refactor/*` - Code refactoring (from main)
+- `test/*` - Test additions or fixes (from main)
 
 ### Commit Message Format
 
@@ -742,8 +741,8 @@ rg --files -g "*.py"
 ## 🚀 GitHub Flow Workflow Summary
 
 main (protected) ←── PR ←── feature/your-feature
-↓ ↑
-deploy development
+↓
+deploy production
 
 ### Daily Workflow:
 
