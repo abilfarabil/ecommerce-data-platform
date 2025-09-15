@@ -19,6 +19,15 @@ Avoid building functionality on speculation. Implement features only when they a
 - **Single Responsibility**: Each function, class, and module should have one clear purpose.
 - **Fail Fast**: Check for potential errors early and raise exceptions immediately when issues occur.
 
+## 🔧 Git Commit Guidelines
+
+### Professional Commit Standards
+- NEVER include Claude signatures in commit messages
+- NEVER add "Co-Authored-By: Claude" in commit messages
+- NEVER include "Generated with Claude Code" footer
+- Keep commit messages professional and clean
+- Use only the developer's name and email as author
+
 ## 🧱 Code Structure & Modularity
 
 ### File and Function Limits
