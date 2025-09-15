@@ -13,3 +13,6 @@ wheels/
 
 # Personal files (not for public repo)
 tujuan.md
+
+# Serena MCP server configuration and cache files
+.serena/
